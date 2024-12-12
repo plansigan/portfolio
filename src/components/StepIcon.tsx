@@ -12,9 +12,9 @@ const CustomStepIcon: React.FC<StepIconProps & CustomStepIconProps> = ({
     icon,
     name,
     active,
-    completed,
+    // completed,
 }) => {
-    const [isAnimating, setIsAnimating] = useState(false);
+    const [_, setIsAnimating] = useState(false);
 
     useEffect(() => {
         if (active) {
