@@ -1,0 +1,94 @@
+.about-me-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  padding: 20px;
+  color: #333;
+}
+
+.about-me-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  max-width: 1200px;
+  width: 100%;
+  border-radius: 12px;
+  overflow: hidden;
+  text-align: left;
+}
+
+.about-me-text {
+  flex: 1;
+  padding: 40px;
+}
+
+.about-me-text h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.about-me-text p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.highlight {
+  color: #ffc107; /* Accent color for highlighting */
+  font-weight: bold;
+}
+
+.contact-btn {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #ffc107;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-decoration: none;
+}
+
+.contact-btn:hover {
+  background-color: #e55252;
+}
+
+.about-me-photo {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px; /* Match the border radius for consistency */
+  padding: 20px;
+}
+
+.profile-photo {
+  width: 80%;
+  max-width: 300px;
+  object-fit: cover;
+  border-radius: 10px; /* Rounded corners for a softer look */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.profile-photo:hover {
+  transform: scale(1.05); /* Slight zoom on hover for a dynamic effect */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Slightly stronger shadow on hover */
+}
+
+/* media queries */
+
+@media (max-width: 768px) {
+  .about-me-content {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 480px) {
+  .about-me-text {
+    padding: 0px;
+  }
+}
