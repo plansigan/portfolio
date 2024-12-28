@@ -35,7 +35,7 @@ const Experience: React.FC = () => {
       <Helmet>
         <link rel="preload" href="./assets/my-image.webp" as="image" type="image/webp" />
       </Helmet>
-      <Box sx={{ marginTop: '5rem' }}>
+      <Box>
         <Grid container spacing={2}>
           <Grid size={12}>
             <Typography variant="h1">Experience</Typography>

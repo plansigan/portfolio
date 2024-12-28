@@ -30,7 +30,6 @@ const About: React.FC = () => {
             type="alphanumeric"
             startOnLoad
           />
-          <br />
 
           <TextGlitchEffect
             text={"Outside of coding, you'll find me exploring new design trends, or enjoying a cup of coffee at my favorite local café."}
@@ -39,6 +38,7 @@ const About: React.FC = () => {
             className="glitchText"
             type="alphanumeric"
             startOnLoad
+            style={{marginBottom:'1rem'}}
           />
 
         </div>

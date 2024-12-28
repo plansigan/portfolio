@@ -23,6 +23,7 @@ body {
   text-align: center;
   flex-direction: column;
   padding: 2rem;
+  margin-top:3rem;
 
   h1 {
     font-size: 3rem;
@@ -89,13 +90,13 @@ body {
 
 @media (max-width: 480px) {
   #page-container {
-    margin-top: 0rem;
+    margin-top: 1.5rem;
     h1 {
       font-size: 2rem;
     }
 
     p {
-      font-size: 1.1rem;
+      font-size: .8rem;
       margin-top: 1rem;
       max-width: 100%;
     }
@@ -142,7 +143,7 @@ body {
   font-weight: bold;
   grid-row-start: 1;
   grid-column-start: 1;
-  font-size: 4rem;
+  /* font-size: 4rem; */
   --stack-height: calc(100% / var(--stacks) - 1px);
   --inverse-index: calc(calc(var(--stacks) - 1) - var(--index));
   --clip-top: calc(var(--stack-height) * var(--index));
